@@ -1,8 +1,12 @@
 import React from "react";
+//import {UseDarkMode} from '../Styles/useDarkMode';
 
 class Header extends React.Component {
-  render() {
-    return (
+ 
+ 
+    render() {
+
+        return (
       <header>
         <nav class="nav1">
           <div class="logo">
@@ -20,9 +24,7 @@ class Header extends React.Component {
             </li>
             <li>
               {" "}
-              <button class="darkbtn" onclick="myFunction2()">
-                D/L
-              </button>
+              
             </li>
           </ul>
         </nav>
