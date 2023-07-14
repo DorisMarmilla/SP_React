@@ -1,4 +1,5 @@
 import React from "react";
+import UseDarkMode from '../Styles/useDarkMode';
 //import {UseDarkMode} from '../Styles/useDarkMode';
 
 class Header extends React.Component {
@@ -26,6 +27,7 @@ class Header extends React.Component {
               {" "}
               
             </li>
+            <UseDarkMode/>
           </ul>
         </nav>
         <div class="topnav" id="myTopnav">
